@@ -15,7 +15,7 @@ filename = dt.datetime.now()
 # Create a tring from the current date and time.
 filename = filename.strftime("%Y%m%d_%H%M%S")
 # Prepend data folders, append file extension.
-filename = 'financial/data/' + filename + ".csv"
+filename = 'Financial/data/' + filename + ".csv"
 
 # Save the data to a CSV file.
 df['Close'].to_csv(filename)
