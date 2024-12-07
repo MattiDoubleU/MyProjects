@@ -25,7 +25,7 @@ jobs:
         run: pip install -r Financial/requirements.txt
 
       - name: Run stocks.py
-        run: python stocks.py
+        run: python Financial/stocks.py
 
       - name: Commit and push changes
         run: |
