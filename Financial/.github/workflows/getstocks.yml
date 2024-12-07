@@ -22,10 +22,10 @@ jobs:
           python-version: '3.x'
 
       - name: Install dependencies
-        run: pip install -r requirements.txt
+        run: pip install -r Financial/requirements.txt
 
       - name: Run stock.py
-        run: python stock.py
+        run: python stocks.py
 
       - name: Commit and push changes
         run: |
