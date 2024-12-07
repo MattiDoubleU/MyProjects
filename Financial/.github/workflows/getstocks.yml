@@ -24,8 +24,8 @@ jobs:
       - name: Install dependencies
         run: pip install -r Financial/requirements.txt
 
-      - name: Run stock.py
-        run: python stocks.py
+      - name: Run stocks.py
+        run: python Financial/stocks.py
 
       - name: Commit and push changes
         run: |
